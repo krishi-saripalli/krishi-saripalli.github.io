@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+svg {
+  width: 100%;
+}
+
+svg:hover {
+  opacity: 50%;
+}
+
+.nav-container {
+  background-color: #02309c;
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  font-size: 3em;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.social-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2vw;
+}
+
+.social-header li svg {
+  width: 4vw;
+  height: 4vw;
+}
+
+.hero {
+  background-color: #012a8a;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.hero h1 {
+  font-size: 5vw;
+}
+
+.hero p {
+  font-size: 4vw;
+}
+
+.intro {
+  background-color: white;
+}
+
+.intro a, .intro a:visited {
+  color: #02309c;
+}
+
+.intro p {
+  font-size: 3.5vw;
+}
+
+.intro img {
+  width: 20vw;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  height: auto;
+}
+
+.skills {
+  background-color: #012a8a;
+}
+
+.skills p {
+  font-size: 3.5vw;
+  color: white;
+}
+
+.skills .left p {
+  font-size: 15vw;
+}
+
+.contact {
+  background-color: #02309c;
+}
+
+.contact p {
+  font-size: 3.5vw;
+  color: white;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact .left p {
+  font-size: 15vw;
+}
+
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+footer {
+  background-color: #02309c;
+}
+
+@media only screen and (min-width: 800px) {
+  .hero {
+    height: 90vh;
+    text-align: left;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+  }
+  .intro {
+    text-align: right;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+  }
+  .intro img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skills {
+    text-align: right;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33% auto;
+        grid-template-columns: 33% auto;
+  }
+  .skills .left p {
+    text-align: center;
+  }
+  .contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 33% auto;
+        grid-template-columns: 33% auto;
+    text-align: center;
+  }
+  .contact .left p {
+    margin: 0;
+    padding: 0;
+  }
+  .social-header ul {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    padding-left: unset;
+  }
+}
+/*# sourceMappingURL=main.css.map */

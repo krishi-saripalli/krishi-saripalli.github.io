@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap');
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a:hover {
+    opacity: 50%;
+}
+
+
+svg {
+    width: 100%;
+}
+
+svg:hover {
+    opacity: 50%;
+}
+
+.nav-container {
+    background-color: #02309c;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+        font-size: 3em;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            
+
+            a {
+                display: block;
+                padding: 0 1em;
+            }
+        }
+    }
+}
+
+.social-header {
+    
+    ul {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 2vw;
+    }
+    li {
+        
+        svg {
+            
+            width: 4vw;
+            height: 4vw;
+
+        }
+       
+    }
+}
+
+
+.hero {
+    background-color: #012a8a;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+
+    h1 {
+        font-size: 5vw;
+    }
+    p {
+        font-size: 4vw;
+    }
+}
+
+.intro {
+    background-color: white;
+    a, a:visited {
+        color:#02309c ;
+    }
+
+    p {
+        font-size: 3.5vw;
+    }
+    img {
+        width: 20vw;
+        clip-path: circle();
+        height: auto;
+      }
+}
+
+.skills {
+    background-color: #012a8a;
+    
+    
+    p {
+        font-size: 3.5vw;
+        color: white;
+    }
+    .left {
+        p {
+            font-size: 15vw;
+        }
+        
+    }
+}
+
+.contact {
+    background-color: #02309c;
+    p {
+        font-size: 3.5vw;
+        color: white;
+    }
+    a {
+        color: white;
+    }
+
+    .left {
+        p {
+            font-size: 15vw;
+        }
+        
+    }
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #02309c;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .hero {
+        height: 90vh;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 66% auto;
+    }
+
+    .intro {
+        text-align: right;
+        display: grid;
+        grid-template-columns: 66% auto;
+
+        img {
+            justify-content: center;
+        }
+    }
+
+    .skills {
+        text-align: right;
+        display: grid;
+        grid-template-columns: 33% auto;
+
+        .left {
+            p {
+                text-align: center;
+                
+            }
+        }
+    }
+
+    .contact {
+        
+        display: grid;
+        grid-template-columns: 33% auto;
+        text-align: center;
+        .left {
+            p {
+                margin: 0;
+                padding: 0;
+                
+                
+            }
+        }
+        
+    }
+
+
+    .social-header {
+        ul {
+            justify-content: left;
+            padding-left: unset;
+            
+        }
+    }
+}
