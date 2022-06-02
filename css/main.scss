@@ -58,18 +58,23 @@ header {
 
 .social-header {
     
+    
     ul {
         display: flex;
         margin: 0 auto;
         justify-content: center;
         gap: 2vw;
+        padding-left: unset;
     }
     li {
         
         svg {
             
-            width: 4vw;
-            height: 4vw;
+            width: 4vh;
+            height: 4vh;
+            display: block;
+            margin: auto;
+            
 
         }
        
@@ -145,6 +150,7 @@ header {
 section {
     padding: 4em 2em;
     text-align: center;
+    
 }
 
 footer {
@@ -163,7 +169,7 @@ footer {
     .intro {
         text-align: right;
         display: grid;
-        grid-template-columns: 66% auto;
+        grid-template-columns: 22% auto;
 
         img {
             justify-content: center;
@@ -207,4 +213,56 @@ footer {
             
         }
     }
+}
+
+@media only screen and (max-width: 768px ) {
+
+    header {
+        justify-content: center;
+    }
+    
+    
+    .nav-container {
+        ul {
+            display: none;
+        }
+       
+    }
+
+    .hero {
+    
+        h1 {
+            font-size: 5vh;
+        }
+        p {
+            font-size: 4vh;
+        }
+
+    }
+
+    .social-header {
+        ul {
+            gap: 4vw;
+        }
+    }
+
+    .intro {
+        p {
+            font-size: 3vh;
+        }
+    }
+
+    .skills {
+        p {
+            font-size: 3vh;
+        }
+    }
+
+    .contact {
+        p {
+            font-size: 3vh;
+        }
+
+    }
+
 }

@@ -64,11 +64,14 @@ header nav ul a {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 2vw;
+  padding-left: unset;
 }
 
 .social-header li svg {
-  width: 4vw;
-  height: 4vw;
+  width: 4vh;
+  height: 4vh;
+  display: block;
+  margin: auto;
 }
 
 .hero {
@@ -159,8 +162,8 @@ footer {
     text-align: right;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
+    -ms-grid-columns: 22% auto;
+        grid-template-columns: 22% auto;
   }
   .intro img {
     -webkit-box-pack: center;
@@ -193,6 +196,35 @@ footer {
         -ms-flex-pack: left;
             justify-content: left;
     padding-left: unset;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav-container ul {
+    display: none;
+  }
+  .hero h1 {
+    font-size: 5vh;
+  }
+  .hero p {
+    font-size: 4vh;
+  }
+  .social-header ul {
+    gap: 4vw;
+  }
+  .intro p {
+    font-size: 3vh;
+  }
+  .skills p {
+    font-size: 3vh;
+  }
+  .contact p {
+    font-size: 3vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
