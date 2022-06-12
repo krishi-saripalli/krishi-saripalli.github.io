@@ -159,8 +159,14 @@ footer {
 }
 
 @media only screen and (min-width: 800px) {
+
+    .nav-container {
+        ul {
+            font-size: 1.2em;
+        }
+    }
     .hero {
-        height: 90vh;
+        height: 80vh;
         text-align: left;
         display: grid;
         grid-template-columns: 66% auto;
@@ -169,10 +175,10 @@ footer {
     .intro {
         text-align: right;
         display: grid;
-        grid-template-columns: 22% auto;
+        grid-template-columns: 33% auto;
 
-        img {
-            justify-content: center;
+        .right {
+            padding: 5em;
         }
     }
 

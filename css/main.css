@@ -150,8 +150,11 @@ footer {
 }
 
 @media only screen and (min-width: 800px) {
+  .nav-container ul {
+    font-size: 1.2em;
+  }
   .hero {
-    height: 90vh;
+    height: 80vh;
     text-align: left;
     display: -ms-grid;
     display: grid;
@@ -162,13 +165,11 @@ footer {
     text-align: right;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 22% auto;
-        grid-template-columns: 22% auto;
+    -ms-grid-columns: 33% auto;
+        grid-template-columns: 33% auto;
   }
-  .intro img {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .intro .right {
+    padding: 5em;
   }
   .skills {
     text-align: right;
