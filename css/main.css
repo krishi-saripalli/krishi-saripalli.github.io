@@ -115,6 +115,13 @@ header nav ul a {
   background-color: #012a8a;
 }
 
+.skills a {
+  color: white;
+  text-decoration: none;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
 .skills p {
   font-size: 3.5vw;
   color: white;
