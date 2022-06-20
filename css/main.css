@@ -68,8 +68,9 @@ header nav ul a {
 }
 
 .social-header li svg {
-  width: 5vh;
-  height: 5vh;
+  padding-bottom: 1em;
+  width: 6vh;
+  height: 6vh;
   display: block;
   margin: auto;
 }
@@ -160,26 +161,19 @@ footer {
     display: grid;
     -ms-grid-columns: 66% auto;
         grid-template-columns: 66% auto;
+    padding-bottom: 6em;
   }
   .intro {
-    text-align: right;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 33% auto;
-        grid-template-columns: 33% auto;
-  }
-  .intro .right {
-    padding: 5em;
+    -ms-grid-columns: 25% auto;
+        grid-template-columns: 25% auto;
   }
   .skills {
-    text-align: right;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 33% auto;
         grid-template-columns: 33% auto;
-  }
-  .skills .left p {
-    text-align: center;
   }
   .contact {
     display: -ms-grid;

@@ -69,11 +69,12 @@ header {
     li {
         
         svg {
-            
-            width: 5vh;
-            height: 5vh;
+            padding-bottom: 1em;
+            width: 6vh;
+            height: 6vh;
             display: block;
             margin: auto;
+            
             
 
         }
@@ -160,6 +161,8 @@ footer {
 
 @media only screen and (min-width: 800px) {
 
+   
+
     .nav-container {
         ul {
             font-size: 1.2em;
@@ -170,29 +173,23 @@ footer {
         text-align: left;
         display: grid;
         grid-template-columns: 66% auto;
+        padding-bottom: 6em;
+        
     }
 
     .intro {
-        text-align: right;
+        
         display: grid;
-        grid-template-columns: 33% auto;
+        grid-template-columns: 25% auto;
 
-        .right {
-            padding: 5em;
-        }
     }
 
     .skills {
-        text-align: right;
+       
         display: grid;
         grid-template-columns: 33% auto;
 
-        .left {
-            p {
-                text-align: center;
-                
-            }
-        }
+        
     }
 
     .contact {
@@ -213,9 +210,12 @@ footer {
 
 
     .social-header {
+        
         ul {
             justify-content: left;
             padding-left: unset;
+           
+            
             
         }
     }
@@ -249,6 +249,7 @@ footer {
     .social-header {
         ul {
             gap: 4vw;
+            
         }
     }
 
